@@ -117,16 +117,29 @@ input:focus{
       border-color:#1C1C1E ;
 }
 
-.int{
-      height: 10px;
+div{
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      gap: 200px;
-      color: white ;
+      gap: 20px;
 }
 
-.magic{
-      
+.under{
+      height: 200px;
+      padding-top: 200px;
+      justify-content: center;
+      align-items: center;
+}
+
+.wordings{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      padding-top: 100px;
+      border-radius: 0px;
+      border-width: -10px;
+      background-color: aqua;
+      border-color: white;
 }
