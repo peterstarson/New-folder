@@ -137,9 +137,12 @@ div{
       flex-direction: row;
       justify-content: left;
       align-items: center;
+}
+
+.rectangle{
+      display: flex;
+      flex-direction: column;
       padding-top: 100px;
-      border-radius: 0px;
-      border-width: -10px;
-      background-color: aqua;
-      border-color: white;
+      justify-content: left;
+      align-items: center;
 }
